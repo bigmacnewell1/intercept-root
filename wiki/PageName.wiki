@@ -1,14 +1,5 @@
-#summary One-sentence summary of this page.
 #labels Phase-Deploy
-
-= Introduction =
-
-App Instructions
-
-
-= Details =
-
-[What this APK does]
+= What this APK does =
 -Runs the GingerBreak exploit by The Android Exploit Crew (increased delay between netlink messages to make it work on Intercept)
 -Installs Joey Krim's root shell script.
 -reboots phone
@@ -17,11 +8,11 @@ After exploit is run and phone reboots, open apk again
 -you can now flash CM01 custom recovery
 -or you can uninstall root
 
-[How to install]
+= How to install =
 Open Settings
 Select application settings
 Click the check box for unknown sources
-[Upload to phone]
+= Upload to phone =
 You can use adb to install apk – requires android debug bridge
 You can put this apk on you SD card, download appinstaller from the android market and use that to install
 Or You can enter the URL of this apk in you androids browser
