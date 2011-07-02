@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:background="@drawable/bg" android:layout_height="fill_parent">
+
+		<ImageView android:layout_width="wrap_content" android:id="@+id/logo"
+			android:layout_height="wrap_content" android:layout_alignParentTop="true"
+			android:layout_centerHorizontal="true" android:src="@drawable/logo" 
+			android:layout_margin="5dp" />
+
+		<Button android:layout_width="wrap_content" android:id="@+id/rootbutton"
+			android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+			android:layout_below="@id/logo" android:text="Permanent Root"
+			android:background="@drawable/menu_bg" android:textColor="#000000"
+			android:layout_margin="5dp" android:width="200dp" />
+			
+		<Button android:layout_width="wrap_content" android:id="@+id/temprootbutton"
+			android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+			android:layout_below="@id/rootbutton" android:text="Temporary root"
+			android:background="@drawable/menu_bg" android:textColor="#000000"
+			android:layout_margin="5dp" android:width="200dp" />
+
+		<Button android:layout_width="wrap_content" android:id="@+id/unrootbutton"
+			android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+			android:layout_below="@id/temprootbutton" android:text="Un-root"
+			android:background="@drawable/menu_bg" android:textColor="#000000"
+			android:layout_margin="5dp" android:width="200dp" />
+			
+		<Button android:layout_width="wrap_content" android:id="@+id/recoverybutton"
+			android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+			android:layout_below="@id/unrootbutton" android:text="Install CM01 Recovery"
+			android:background="@drawable/menu_bg" android:textColor="#000000"
+			android:layout_margin="5dp" android:width="200dp" />
+			
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Intercept Root"
+			android:textColor="#000000" android:layout_centerHorizontal="true"
+			android:gravity="center" android:layout_alignParentBottom="true"
+			android:id="@+id/copyright" />
+
+		<TextView android:id="@+id/detailtext" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_below="@id/recoverybutton"
+			android:text="This will root your device, and enable you to supply system level access to applications that request it. Busybox will also be installed."
+			android:textColor="#000000" android:layout_centerHorizontal="true"
+			android:gravity="bottom" android:padding="5dp" android:layout_above="@id/copyright" />
+
+</RelativeLayout>
