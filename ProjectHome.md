@@ -1,0 +1,1 @@
+Uses modified GingerBreak Exploit to achieve root access. Then it installs Joey Krim's permanent root shell script. Once phone is rooted it can install CM01 recovery using flash\_image. APK is for Samsung Intercept, but the root exploit may work on other phones that are compatible with Joey Krim's root script. Feel free to modify app to make it work with your phones if you like.
